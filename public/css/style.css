@@ -1,0 +1,52 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+.container{
+    padding-bottom: 5%;
+}
+#utama{
+    background: url(../asset/img/bedroom.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+    color:initial;
+    font-family:fantasy;
+}
+.text{
+    padding-top: 10%;
+    color: rgb(63, 56, 56);
+}
+.form-control-lg{
+width: 35%;
+}
+#icon img{
+    height: 50px;
+    position: relative;
+    top: 2px;
+    bottom: 5px;
+}
+.bord-bottom{
+    border-bottom: 1.5pt rgba(104, 8, 8, 0.384) solid;
+    text-align: justify;
+    padding-top: 25px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+ul li{
+    list-style:none;
+}
+ul li a:hover {
+    color: rgba(168, 72, 72, 0.801);
+}
+footer{
+    background-color: rgba(168, 72, 72, 0.801);
+    color: #ffffff;
+}
+
+.button {
+    float: right;
+}
